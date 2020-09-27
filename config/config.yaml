@@ -1,0 +1,4 @@
+logger:
+  name: ITester
+  level: DEBUG
+  format: '%(filename)s-%(lineno)d-%(asctime)s-%(levelname)s-%(message)s'

@@ -1,0 +1,21 @@
+[default]
+#测试主页
+URL= http://localhost/zentaopms/www/user-login.html
+#默认用户名
+user_name = admin
+#默认密码
+password = rc15892367305
+#webdriver存放路径
+driver_path = webdriver
+#默认webdriver配置 chrome firfox ..
+driver_name = chrome
+#默认等待时间
+time_out = 5
+#截图路径
+screen_shot_path = screen_shot
+#测试数据文件路径配置
+testdata_path = test_datas/test_data_info.xlsx
+#测试用例存放路径
+case_path = testcase
+#测试报告存放路径
+report_path = reports/
