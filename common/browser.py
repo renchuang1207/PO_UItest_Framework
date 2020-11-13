@@ -28,7 +28,7 @@ class Browser(object):
         chrome_options.add_experimental_option('prefs', prefs)  # 关闭登录后密码提示弹窗
         chrome_options.add_experimental_option('useAutomationExtension',False)#取消chrome受自动化控制提示
         chrome_options.add_experimental_option("excludeSwitches",['enable-automation'])#取消chrome受自动化控制提示
-        chrome_options.binary_location = "/Applications/Google Chrome 2.app/Contents/MacOS/Google Chrome"
+        chrome_options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
         driver_path = os.path.join(self.__driver_path, 'chromedriver')
         driver = webdriver.Chrome(options=chrome_options,executable_path=driver_path)
         logger.info('初始化并启动浏谷歌浏览器')
